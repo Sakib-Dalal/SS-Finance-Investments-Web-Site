@@ -1,0 +1,96 @@
+.navbar-brand {
+    color: rgb(80, 3, 143);
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+} 
+
+.navbar-nav {
+    text-align: center;
+}
+
+ls {
+    text-align: center;
+}
+
+#transform {
+    /* border: 3px solid rgb(80, 3, 143); */
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)) padding-box, /* Content background */
+                linear-gradient(45deg, rgb(80, 3, 143), rgb(16, 186, 243), rgb(1, 195, 1)) border-box; /* Three-color border */
+    /* border: 2px solid transparent; */
+}
+
+.line {
+    height: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    gap: 0px;
+    transition: grid-template-columns 1s ease; /* Add transition for smooth effect */
+}
+.line div {
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.purple-line {
+    border-top-right-radius: 10px;
+    background-color: rgb(80, 3, 143);
+}
+
+.blue-line {
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(16, 186, 243);
+}
+
+.green-line {
+    border-bottom-left-radius: 10px;
+    background-color: rgb(1, 195, 1);
+}
+
+.card-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+/* .card-body {
+    border: 2px solid rgb(80, 3, 143);
+    border-radius: 10px;
+} */
+
+.card1 {
+    background: linear-gradient(rgb(251, 247, 255), rgb(246, 255, 246)) padding-box, /* Content background */
+                linear-gradient(45deg, rgb(80, 3, 143), rgb(16, 186, 243), rgb(1, 195, 1)) border-box; /* Three-color border */
+    border: 2px solid transparent; /* Transparent border to show the gradient */
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.card {
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)) padding-box, /* Content background */
+                linear-gradient(45deg, rgb(80, 3, 143), rgb(16, 186, 243), rgb(1, 195, 1)) border-box; /* Three-color border */
+    border: 2px solid transparent; /* Transparent border to show the gradient */
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(80, 3, 143);
+}

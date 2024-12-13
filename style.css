@@ -33,6 +33,7 @@ ls {
     gap: 0px;
     transition: grid-template-columns 1s ease; /* Add transition for smooth effect */
 }
+
 .line div {
     text-align: center;
     color: white;
